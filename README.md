@@ -74,18 +74,15 @@ Empezaremos seleccionando el tipo de placa Arduino que vamos a usar y a continua
 
 ## Con led externo
 
-### Montaje sencillo
-![led externo](./images/ExampleCircuit_bb.png)
+![detalle led](./images/300px-LED.png)
 
-[detalle led](./images/300px-LED.png)
-
-* * *
 ### Montaje con placa prototipo
+
 ![led placa](./images/Led_3_nano.png)
 
-[¿cómo funciona una placa prototipo?](./images/breadboard1.gif)
+![¿cómo funciona una placa prototipo?](./images/breadboard1.gif)
 
-#### Ejercicio: Cambiar el pin utilizado al pin 3
+#### Ejercicio: Cambiar el pin utilizado al pin 7
 
 * * *
 
@@ -109,7 +106,7 @@ Empezaremos seleccionando el tipo de placa Arduino que vamos a usar y a continua
 * Configuramos la velocidad
 * Necesitamos un programa para ver los datos
 
-## Vamos a enviar "Encendido" y "Apagado" al PC
+## Vamos a enviar "On" y "Off" al PC
 ![ParpadeoSerie](./images/ParpadeoSerie.png)
 
 [Programa](http://www.arduinoblocks.com/web/project/174290)
@@ -126,6 +123,8 @@ Podemos utilizar los componentes disponibles con conexion sencilla
 ![DHT11_programa](./images/DHT11_programa.png)
 
 ![DHT11 montaje](./images/DHT11Rele.png)
+
+##### Ahora enviamos "Textos" y **Valores**
 
 
 [Programa](http://www.arduinoblocks.com/web/project/174286)
@@ -149,32 +148,24 @@ Podemos utilizar los componentes disponibles con conexion sencilla
 
 # Lectura de datos analógicos
 
-* ## Sensores (luz, temperatura)
-
 * ## Potenciómetro: resistencia variable (mando de volumen)
 
 ### Se leen valores enteros entre 0 y 1023
 ### Equivalen a los valores de 0V y 5V
 
-![pot](./images/Pot.png)
+![pot](./images/DHT11Rele3RegulableNano_bb.png)
 
-Cambiaremos nuestro programa "Aleatorio" para que el tiempo de espera con el led encendido sea proporcional al valor de espera del led encendido
-
-![aleacont](./images/aleatorioControlado.png)
-
-* * *
+Vamos a utilizar nuestro potenciómetro para seleccionar la temperatura objetivo
 
 En muchas ocasiones necesitamos hacer la transformación al rango que a nosotros nos interesa. Para simplificarlo usamos las funciones matemáticas **map**
 
+Convertiremos (mapearemos) la medida de entre 0 y 1023 a una temperatura entre 20 y 40º 
+
 ![map](./images/Mapeo.png)
 
-* La primera es una versión simplificada que nos convierte un valor de una entrada analógica (entre 0 y 1023) al rango 0-N que elijamos
+![mapeotiempos](./images/IncubadoraRegulableDHT11.png)
 
-* La segunda nos permite hacer una transformación entre un rango y otro, cualquiera que sean los valores de estos.
-
-Vamos a modificar el programa "Aleatorio" definiendo el valor de espera en el rango que queramos
-
-![mapeotiempos](./images/MapeoTiempos.png)
+[Programa](http://www.arduinoblocks.com/web/project/174382)
 
 * * *
 

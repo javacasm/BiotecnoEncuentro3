@@ -2,7 +2,7 @@
 
 ## ¿Qué es para mi STEM?
 
-![Licencia](./images/Licencia_CC.png)
+![Licencia CC](./images/Licencia_CC.png)
 
 ### Para mi es HACER, construir, calcular, controlar
 
@@ -85,34 +85,7 @@ El proyecto que hemos usado es http://www.arduinoblocks.com/web/project/155842
 
 ##  ¿Qué necesitamos?
 
-## El rey de los microcontroladores: ARDUINO
-
-![Arduino](./images/Arduino_Uno_-_R3.jpg)
-
-### No es el mejor, 
-### no es el más barato, 
-### ni el más rápido, 
-### ni el más fácil de usar
-
-## Ha permitido que millones de personas consigan hacer lo que antes sólo hacían los ingenieros
-
-### Arduino es:
-* Una placa
-* Un entorno de programación, con sus librerías y ejemplos
-* Una documentación
-
-
-## TODO Open Source
-
-![200px-Open-source-hardware-logo.svg.png](./images/200px-Open-source-hardware-logo.svg.png)
-
-### Se creó en [2005](https://es.wikipedia.org/wiki/Arduino) 
-### Desde entonces no ha parado de 
-* evolucionar, 
-* mejorar, 
-* crear derivados 
-* abaratarse 
-* y dar lugar a una industria enorme
+### Arduino
 
 ## Ideas de proyectos vistos como STEM
 

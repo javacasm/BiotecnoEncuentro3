@@ -295,6 +295,10 @@ Piensa en qué cambia si lo pones antes o después del incremento de la variable
 
 [Introducción a la electrónica](http://www.slideshare.net/javacasm/40-introduccin-a-la-electrnica)
 
+Un simple transistor Mosfet nos permite controlar grandes potencias
+
+TODO!!!
+
 
 ## Combinando colores
 
@@ -727,4 +731,4 @@ Ante todo hay que mirar lo que se compra y la documentación e información que 
 
 ## Recursos
 
-[Arduino desde cero con ArduinoBlocks](https://didactronica.com/itinerario/)
+[Arduino desde cero con ArduinoBlocks](https://didactronica.com/itinerario/)    

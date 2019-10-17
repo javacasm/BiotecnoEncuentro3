@@ -1,14 +1,48 @@
 # BioTecnoEncuentro 3ed
 
-![Licencia CC](./images/CCbySQ_88x31.png)
+## Arduino desde 0
+
+![Licencia CC](./images/Licencia_CC.png)
 
 ### José Antonio Vacas @javacasm
 
 ## http://bit.ly/BT3Arduino
 
-## Arduino desde 0
-
 ### ¿Qué es Arduino?
+
+#### un ordenador, 
+#### mejor un microordenador, 
+#### mejor todavía un microcontrolador
+
+
+## El rey de los microcontroladores: ARDUINO
+
+![Arduino](./images/Arduino_Uno_-_R3.jpg)
+
+### No es el mejor, 
+### no es el más barato, 
+### ni el más rápido, 
+### ni el más fácil de usar
+
+## Ha permitido que millones de personas consigan hacer lo que antes sólo hacían los ingenieros
+
+### Arduino es:
+* Una placa
+* Un entorno de programación, con sus librerías y ejemplos
+* Una documentación
+
+
+## TODO Open Source
+
+![200px-Open-source-hardware-logo.svg.png](./images/200px-Open-source-hardware-logo.svg.png)
+
+### Se creó en [2005](https://es.wikipedia.org/wiki/Arduino) 
+### Desde entonces no ha parado de 
+* evolucionar, 
+* mejorar, 
+* crear derivados 
+* abaratarse 
+* y dar lugar a una industria enorme
 
 Arduino es un microcontrolador (microordenador que controla cosas) de diseño abierto y fácilmente programable
 

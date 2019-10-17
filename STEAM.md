@@ -118,7 +118,7 @@ El proyecto que hemos usado es http://www.arduinoblocks.com/web/project/155842
 
 ### Física
 
-[Planos inclinados, cinemática](http://www.iesveleta.com/actividades/proyecto-educativo-con-robots-cinematica-con-arduino/), comprobación de leyes fisicas
+[Planos inclinados, cinemática](http://www.iesveleta.com/actividades/proyecto-educativo-con-robots-cinematica-con-arduino/), comprobación de leyes fisicas, experimentos de Galileo
 
 ![plano inclinado](./images/Arduino-PlanoInclinado-02.jpg)
 
@@ -156,9 +156,24 @@ Conceptos:
 * sensor que mide la temperatura a la sombra
 * ponemos al sol las fijaciones y comparamos la temperatura
 
-#### Medidas de conductividad eléctrica en disoluciones
+#### Cambios de fase
 
-Usamos un sensor de temperatura para medir la conductividad de distintas disoluciones
+Medidas de temperaturas cambio de fase en líquidos
+
+#### Verificación leyes gases con barómetros y termómetros
+
+#### Gases
+* Medida de concentración de distintos gases
+* Respiración y fotosíntesis de plantas
+
+
+#### Led RGB
+* Composición espectral de la luz
+
+### Psicología
+
+#### Tiempo de respuesta
+
 
 ### Ingeniería
 Domótica, estructuras, sensores
@@ -170,6 +185,13 @@ Domótica, estructuras, sensores
 Medida de valores físicos (temperatura, presión, color, ph, ... ) durante las reacciones
 
 https://www.instructables.com/id/DIY-LED-photometer-With-Arduino-for-Physics-or-Che/
+
+
+#### Medidas de conductividad eléctrica en disoluciones
+
+Usamos un sensor de humedad para medir la conductividad de distintas disoluciones
+* Conductividad
+* Salinidad del agua
 
 ### Monitorización de paneles solares
 
@@ -246,4 +268,8 @@ https://aprendiendoarduino.wordpress.com/2018/05/06/arduino-en-la-educacion/
 https://aprendiendoarduino.wordpress.com/2018/05/07/ejemplo-de-itinerario-educativo/
 
 https://aprendiendoarduino.wordpress.com/2019/06/30/saber-mas-gestion-de-proyectos-con-arduino/
+
+
+
+
 

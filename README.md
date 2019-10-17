@@ -208,9 +208,9 @@ Usaremos el tipo de variable float
 ## Montaje
 
 
-![circuitoPulsador](http://www.softweb.es/acuario/Esquemas/conexcion%20boya.jpg)
+![circuitoPulsador](./images/button_sch.png)
 
-![ejemplo](http://www.ikkaro.com/files/roobre/Arduino/Button.jpg)
+![ejemplo](./images/Button.jpg)
 
 ## Programa
 

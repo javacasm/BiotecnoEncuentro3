@@ -10,7 +10,7 @@
 
 ### ¿Qué es Arduino?
 
-Arduino es un microcontrolador de diseño abierto fácilmente programable
+Arduino es un microcontrolador (microordenador que controla cosas) de diseño abierto y fácilmente programable
 
 #### Así lo vemos nosotros
 
@@ -27,42 +27,46 @@ Arduino es un microcontrolador de diseño abierto fácilmente programable
 
 ### ¿Para qué sirve?
 
-#### Nos permite desarrollar proyectos donde se necesitan usar sensores y controlar actuadores
+#### Nos permite desarrollar proyectos donde se necesitan usar sensores, medir, tomar decisiones y controlar actuadores
 
 
 
 # Para hacer un proyecto necesitamos:
 
-* ### Programa
+### Un **programa**
 
-Por ejemplo para hacer un parpadeo
+	¿Qué es un programa? un conjunto de instrucciones ordenadas
 
-¿Qué es un programa? un conjunto de instrucciones ordenadas
-Programa parpadeo (blink)
-Encendemos
-Esperamos
-Apagamos
-Esperamos
-Volvemos al principio
+		Por ejemplo para hacer un parpadeo
 
 
-### Herramientas de programación: ArduinoBlocks
-
+		Programa parpadeo (blink)
+		Encendemos
+		Esperamos
+		Apagamos
+		Esperamos
+		Volvemos al principio
 
 * ### Montaje ([electrónica](./presentaciones/4.0%20-%20Introducci%C3%B3n%20a%20la%20electr%C3%B3nica.pdf))
 
+![Componentes](./images/wholesale-37-in-1-box-kits-de-sensor-37-sensor.jpg)
 
-![parpadeo](./images/1%20parpadeo.png)
 
-### Usaremos el led interno
+### Herramientas de programación: [ArduinoBlocks.com](https://arduinoblocks.com)
+
+### Parpadeando el led interno
 
 ![blink](images/tumblr_mj00x5CdpR1s6tqslo1_500.gif)
 
-Bitbloq es un entorno de programación visual por bloques que nos permite programar nuestra placa arduino o compatible de forma sencilla, evitando la complejidad de las sentencias C++
+ArduinoBlocks es un entorno de programación visual por bloques que nos permite programar nuestra placa arduino o compatible de forma sencilla, evitando la complejidad de las sentencias C++
 
 Además nos permite programar nuestro arduino sin instalar (practicamente) nada en nuestro ordenador
 
 Empezaremos seleccionando el tipo de placa Arduino que vamos a usar y a continuación añadiremos el hardware que usemos conectándolo a las patillas correspondientes.
+
+![Blink13](./images/Blink13.png)
+
+[Programa](http://www.arduinoblocks.com/web/project/174285)
 
 #### Ejercicio: Cambiar la velocidad de parpadeo
 
@@ -77,11 +81,11 @@ Empezaremos seleccionando el tipo de placa Arduino que vamos a usar y a continua
 
 * * *
 ### Montaje con placa prototipo
-![led placa](./images/led13bb.jpg)
+![led placa](./images/Led_3_nano.png)
 
 [¿cómo funciona una placa prototipo?](./images/breadboard1.gif)
 
-#### Ejercicio: Cambiar el pin utilizado al pin 2
+#### Ejercicio: Cambiar el pin utilizado al pin 3
 
 * * *
 
@@ -93,25 +97,54 @@ Empezaremos seleccionando el tipo de placa Arduino que vamos a usar y a continua
 
 ## Con un relé usaremos ¡¡grandes corrientes eléctricas!!
 
-![rele](./images/relee_arduino.jpg)
+![rele](./images/Rele3Nano.png)
 
 ![Danger](./images/Dangers-of-electric-shock.jpg)
 
+# Envío de datos serie
+
+### La comunicación serie se produce via USB entre Arduino y el PC
+
+* Detectamos el puerto
+* Configuramos la velocidad
+* Necesitamos un programa para ver los datos
+
+## Vamos a enviar "Encendido" y "Apagado" al PC
+![ParpadeoSerie](./images/ParpadeoSerie.png)
+
+[Programa](http://www.arduinoblocks.com/web/project/174290)
 
 Ahora deberíamos seguir con semáforos, kit, (cylon) y esas cosas....
 
 
 ### Crea tu propio material de laboratorio
 
-Componentes disponibles, conexi'on sencilla
+Podemos utilizar los componentes disponibles con conexion sencilla
 
-DTH11
+#### DTH11
 
-ds18b20
+![DHT11_programa](./images/DHT11_programa.png)
+
+![DHT11 montaje](./images/DHT11Rele.png)
 
 
+[Programa](http://www.arduinoblocks.com/web/project/174286)
 
 ### Midiendo, calculando, controlando 
+
+#### En función de la temperatura vamos a decidir si activar el elemento calefactor
+
+![Incubadora-DHT11](./images/Incubadora-DHT11.png)
+
+[Programa](http://www.arduinoblocks.com/web/project/174301)
+
+
+### Igual podíamos hacer con un sensor de líquidos y más preciso como es el ds18b20
+
+[Programa](http://www.arduinoblocks.com/web/project/174308)
+
+![Montaje](./images/IncubadoraDS18x20.png)
+
 
 
 # Lectura de datos analógicos
@@ -409,19 +442,6 @@ El programa sería
 
 * * *
 
-# Envío de datos serie
-
-### La comunicación serie se produce via USB entre Arduino y el PC
-
-* Detectamos el puerto
-* Configuramos la velocidad
-* Necesitamos un programa para ver los datos
-
-## Vamos a enviar "Encendido" y "Apagado" al PC
-![ParpadeoSerie](./images/ParpadeoSerie.png)
-
-
-* * *
 # Números decimales
 
 Usaremos el tipo de variable float

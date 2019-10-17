@@ -107,6 +107,12 @@ Conceptos:
 * momento angular
 * momento de inercia
 
+### Física en una carrera de leds
+
+Además de divertirte jugando con una @openledrace puedes aprender a programarla y la física que se simula (velocidades, aceleraciones, rozamiento, gravedad ...), te recomiendo estos tutoriales de @ArduinoBlocks sobre el tema. #STEM
+http://arduinoblocks.didactronica.com/2019/10/carrera-led-123/
+http://arduinoblocks.didactronica.com/2019/10/carrera-led-123/
+
 ##### Estudiamos como influye el momento de inercia en el movimiento
 
 #### Diseñando

@@ -168,33 +168,37 @@ Convertiremos (mapearemos) la medida de entre 0 y 1023 a una temperatura entre 2
 [Programa](http://www.arduinoblocks.com/web/project/174382)
 
 * * *
+# Números decimales
 
-## Voltímetro
+Usaremos el tipo de variable float
 
-Vamos a modificar este programa para hacer un voltímetro.
+### Ejemplo: Voltímetro
+* Leemos el valor de un potenciómetro conectado a una entrada analógica (A0)
+* Convertimos el valor (0-1023) a 0 - 5.0v
+* Sacamos el valor por la consola serie
 
-Para ello necesitamos usar números con decimales por lo que haremos el cambio en el entorno de Arduino
+* Calibramos viendo los extremos y el valor intermedio 3.3V
 
-	void setup()
-	{
+
+	const int analogInPin = A0;  // Entrada analógica
+	int sensorValue = 0;        // valor leído
+
+	void setup() {
 	  Serial.begin(9600);
 	}
+	void loop() {
 
-
-	void loop()
-	{
-	  int Led=random(8,14);
-	  int ValorPotenciometro=analogRead(A0);
-	  int Espera=map(ValorPotenciometro,0,1023,200,500);
-	  float Voltios=map(ValorPotenciometro,0,1023,0,5000)/1000.0;  // Es la línea anterior modificado
-	  pinMode(Led,OUTPUT);
-	  digitalWrite(Led,HIGH);
-	  delay(Espera);
-	  pinMode(Led,OUTPUT);
-	  digitalWrite(Led,LOW);
-	  Serial.print(Voltios);   // Enviamos el valor al PC
-	  Serial.println("v");
+	  sensorValue = analogRead(analogInPin);   // leemos el valor analógico
+	  float voltios=(5.0*sensorValue) /1023;   // Lo convertimos
+	  Serial.print("sensor = " );                       
+	  Serial.print(sensorValue);    
+	  Serial.print(" = ");
+	  Serial.print(voltios);
+	  Serial.println("v");   
+	   delay(200);                     
 	}
+
+
 
 * * *
 
@@ -433,35 +437,6 @@ El programa sería
 
 * * *
 
-# Números decimales
-
-Usaremos el tipo de variable float
-
-### Ejemplo: Voltímetro
-* Leemos el valor de un potenciómetro conectado a una entrada analógica (A0)
-* Convertimos el valor (0-1023) a 0 - 5.0v
-* Sacamos el valor por la consola serie
-
-* Calibramos viendo los extremos y el valor intermedio 3.3V
-
-
-	const int analogInPin = A0;  // Entrada analógica
-	int sensorValue = 0;        // valor leído
-
-	void setup() {
-	  Serial.begin(9600);
-	}
-	void loop() {
-
-	  sensorValue = analogRead(analogInPin);   // leemos el valor analógico
-	  float voltios=(5.0*sensorValue) /1023;   // Lo convertimos
-	  Serial.print("sensor = " );                       
-	  Serial.print(sensorValue);    
-	  Serial.print(" = ");
-	  Serial.print(voltios);
-	  Serial.println("v");   
-	   delay(200);                     
-	}
 
 
 

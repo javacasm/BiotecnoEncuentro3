@@ -697,6 +697,17 @@ Si este es máyor activamos el relé
 Mostramos en el lcd la temperatura actual
 
 
+## Publicación de datos
+Existen placas con conectividad Wifi como el NodeMCU, ESP8266, ESP12, ESP32
+
+![](https://electronilab.co/wp-content/uploads/2016/02/NodeMCU-%E2%80%93-Board-de-desarrollo-con-m%C3%B3dulo-ESP8266-WiFi-y-Lua-1.jpg)
+
+Podemos enviar los datos a servidores de internet
+
+![EnvioDatos](./images/EnvioDatos.png)
+
+Podemos usar MQTT, ThingSpeak, Blynk
+
 * * *
 ### ¿Dónde comprar?
 

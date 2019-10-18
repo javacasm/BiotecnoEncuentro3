@@ -12,12 +12,12 @@
 
 #### un ordenador, 
 #### mejor un microordenador, 
-#### mejor todavía un microcontrolador
+#### mejor todavía ... es un microcontrolador
 
 
 ## El rey de los microcontroladores: ARDUINO
 
-![Arduino](./images/Arduino_Uno_-_R3.jpg)
+![Arduino UNO](./images/Arduino_Uno_-_R3.jpg)
 
 ### No es el mejor, 
 ### no es el más barato, 
@@ -82,6 +82,8 @@ Arduino es un microcontrolador (microordenador que controla cosas) de diseño ab
 		Volvemos al principio
 
 ### Montaje ([electrónica](./presentaciones/4.0%20-%20Introducci%C3%B3n%20a%20la%20electr%C3%B3nica.pdf))
+
+![Arduino nano](http://www.circuitstoday.com/wp-content/uploads/2018/02/Arduino-Nano-Pinout.jpg)
 
 ![Componentes](./images/wholesale-37-in-1-box-kits-de-sensor-37-sensor.jpg)
 

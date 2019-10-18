@@ -69,9 +69,9 @@ Arduino es un microcontrolador (microordenador que controla cosas) de diseño ab
 
 ### Un **programa**
 
-	¿Qué es un programa? un conjunto de instrucciones ordenadas
+#### ¿Qué es un programa? un conjunto de instrucciones ordenadas
 
-		Por ejemplo para hacer un parpadeo
+	Por ejemplo para hacer un parpadeo
 
 
 		Programa parpadeo (blink)
@@ -81,12 +81,14 @@ Arduino es un microcontrolador (microordenador que controla cosas) de diseño ab
 		Esperamos
 		Volvemos al principio
 
-* ### Montaje ([electrónica](./presentaciones/4.0%20-%20Introducci%C3%B3n%20a%20la%20electr%C3%B3nica.pdf))
+### Montaje ([electrónica](./presentaciones/4.0%20-%20Introducci%C3%B3n%20a%20la%20electr%C3%B3nica.pdf))
 
 ![Componentes](./images/wholesale-37-in-1-box-kits-de-sensor-37-sensor.jpg)
 
 
 ### Herramientas de programación: [ArduinoBlocks.com](https://arduinoblocks.com)
+
+![arduinoblocks](https://lh3.googleusercontent.com/JvIaf64ZFVdXHSF6tvCxkPl3kjybaag_u1RDn-8CgjplLbYxrwo2MR7JCBdbsqnKGVuMNSAM-GAxKpiojjHvv9ZNW2-6tEDv16wKzTXCKfoY9kvXZFamGB0Zb9Gt4RYltr_-nSvytXmPEIDduMtPbBd6QH5PqOiCRZA3LeonLbH0DS1UsztQQJVTFJFsY_bR4dsEsscbkRBNsUdn6dFaYgSL0zXf-__Wj2HDx2cnL5s4P7G-qZQ9H6-HmSbkrMrDDOYVNt-FSuPB2Jfs1XYlyRLMW6kLbN2Sv15VrMQjFoQxK8_2qkEiP88E6t29Mm-CDBcczdCuH-2nKIbnS5Mte3jV8svZ6G6W1foSyofot0ttTuLeNgf74j3TJt05Nn71e0KrYrIA2IMtWCAtRlwgaBRrt2Y2q9VF-EFYtX3oUGSCNfvJL-i-bWHkQ64YLVUM706Hx0xDWell7Qs7hXqC8jy3JdVIpHimXaY4o4QVN3bBpPzxbmOBcLyULChMHNKpIw_JbevgXoajtwtRNKDl6R39yGaBoEyAQgrvsF8L55iLGz0t01a82xkMbcDfQALVzNT3VIOkda74eP6gwRXSFTRJlBBM3bwqGpQvwyyUoSZ3a13mbYwhb044MFw-rmxwqfX2W_gLjd6Os44R7l3cdQtdmq-ekpBAzuHgEnIpT0-iiIcNwLpyub-BdyIHLWSrbamwe14mQpvg-s_78w=w373-h348-no)
 
 ### Parpadeando el led interno
 
@@ -128,7 +130,7 @@ Empezaremos seleccionando el tipo de placa Arduino que vamos a usar y a continua
 
 ## Con un relé usaremos ¡¡grandes corrientes eléctricas!!
 
-![rele](./images/Rele3Nano.png)
+![DHT11 montaje](./images/DHT11Rele.png)
 
 ![Danger](./images/Dangers-of-electric-shock.jpg)
 
@@ -150,13 +152,14 @@ Ahora deberíamos seguir con semáforos, kit, (cylon) y esas cosas....
 
 ### Crea tu propio material de laboratorio
 
-Podemos utilizar los componentes disponibles con conexion sencilla
+Podemos utilizar los componentes disponibles con conexión sencilla
 
 #### DTH11
 
 ![DHT11_programa](./images/DHT11_programa.png)
 
-![DHT11 montaje](./images/DHT11Rele.png)
+![Incubadora-DHT11](./images/Incubadora-DHT11.png)
+
 
 ##### Ahora enviamos "Textos" y **Valores**
 
@@ -169,6 +172,8 @@ Podemos utilizar los componentes disponibles con conexion sencilla
 
 ![Incubadora-DHT11](./images/Incubadora-DHT11.png)
 
+![Incubadora - Programa](./images/Incubadora_DHT11_programa.png)
+
 [Programa](http://www.arduinoblocks.com/web/project/174301)
 
 
@@ -179,10 +184,18 @@ Podemos utilizar los componentes disponibles con conexion sencilla
 ![Montaje](./images/IncubadoraDS18x20.png)
 
 
+# ¿Cómo es que podemos usar esos sensores? : Librerías: conjunto de código empaquetado
+
+Ejemplo: [lcd](http://arduino.cc/en/pmwiki.php?n=Reference/LiquidCrystal) o [servo](http://arduino.cc/en/pmwiki.php?n=Reference/Servo)
+
+### Para incluir una librería en código hacemos
+
+	#include <Libreria.h>
+
 
 # Lectura de datos analógicos
 
-* ## Potenciómetro: resistencia variable (mando de volumen)
+## Potenciómetro: resistencia variable (mando de volumen)
 
 ### Se leen valores enteros entre 0 y 1023
 ### Equivalen a los valores de 0V y 5V
@@ -244,12 +257,14 @@ Usaremos el tipo de variable float
 
 ![circuitoPulsador](./images/button_sch.png)
 
-![ejemplo](./images/Button.jpg)
+![ejemplo](./images/button.png)
 
 ## Programa
 
+
 ### Usamos una sentencia condicional: si se cumple esto...se hace aquello
 ![boton](./images/Boton_Led.png)
+
 
 ### Su código
 
@@ -362,20 +377,17 @@ Un simple transistor Mosfet nos permite controlar grandes potencias
 TODO!!!
 
 
-## Combinando colores
+#### Ejercicios: Combinando colores
 
 Vamos a hacer combinaciones de colores.
 Definiremos funciones con distintos colores y haremos una secuencia de colores. Cada función llamar
 Es muy importante que seamos claros con los nombres de las variables para así no equivocarnos
 
-
-![colores](./images/Colores.png)
 * * *
 # Potenciómetro regulando una salida analógica
 
 ![lecturaAnalogica](./images/arduino_pot_led.png)
 
-![SalidaAnalogicaProporcional](./images/SalidaAnalogicaProporcional.png)
 
 ### El código:
 
@@ -468,11 +480,6 @@ Una versión más complicada donde añadimos unos indicadores de la dirección
 El programa sería
 
 ![ProgramaControlMotor](./images/ProgramaControlMotor.png)
-
-* * *
-
-
-
 
 
 * * *
@@ -580,13 +587,7 @@ El programa sería este:
 
 
 * * *
-# Librerías: conjunto de código empaquetado
 
-Ejemplo: [lcd](http://arduino.cc/en/pmwiki.php?n=Reference/LiquidCrystal) o [servo](http://arduino.cc/en/pmwiki.php?n=Reference/Servo)
-
-### Para incluir una librería en código hacemos
-
-	#include <Libreria.h>
 
 * * *
 # Servo

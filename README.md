@@ -10,9 +10,9 @@
 
 ### ¿Qué es Arduino?
 
-#### un ordenador, 
-#### mejor un microordenador, 
-#### mejor todavía ... es un microcontrolador
+### un ordenador, 
+### mejor un microordenador, 
+### mejor todavía ... es un microcontrolador
 
 
 ## El rey de los microcontroladores: ARDUINO
